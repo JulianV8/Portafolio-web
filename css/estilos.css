@@ -1,7 +1,67 @@
-header{
-    color: black;
-    background: blue
+.header {
+    background-color: #57575A;
+    color: white;
+}
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url("../images/light-bulbs.jpg");
+    background-color: #57575A;
+    background-size: 500px 200px;
+    background-repeat: no-repeat;
+    background-position-x: right
 }
 body {
-    background: red
+    background: whitesmoke;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    /* font-style: italic */
+    margin: 0;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto Slab', serif;  
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: -.2px;
+    /* text-transform: uppercase;
+    text-decoration: underline */
+    color: white;
+    margin: 0px 500px 10px 20px;
+}
+
+h1 strong {
+    color: #026fff;
+}
+
+.portafolio {
+    background: #EFEFF4;
+}
+
+.project {
+    border: 1px solid grey;
+    border-radius: 10px;
+    background: white;
+    margin: 20px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+.project-details {
+    width: 500px;
+    margin: 10px 20px;
+}
+ .project-image {
+     width: 500px;
+ }
