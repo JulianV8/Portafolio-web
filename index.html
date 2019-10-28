@@ -13,153 +13,169 @@
 
 <body>
     <header class="header">
-        <div>
+        <div class="container">
             <figure class="logo">
-                <img src="images/logo-julian.png" alt="Image bulbs">
+                <img src="images/logo-julian.png" alt="Image bulbs" height="120px" width="120px">
             </figure>
             <nav class="menu">
                 <ol>
                     <li><a href="#portafolio">Portafolio</a></li>
-                    <li><a href="#experiencia">Mi experiencia</a></li>
+                    <li><a href="#eventos">Mi experiencia</a></li>
                     <li><a href="#contacto">Contacto</a></li>
                 </ol>
             </nav>
         </div>
     </header>
     <section class="hero">
-        <h1>Hola soy <strong style="color: blue">Julian</strong> <br> Desarrollador de <strong
-                style="color: blue">software</strong> <br> apasionado por el mundo
-            <strong style="color: blue">TECH</strong>
-        </h1>
-        <!-- <figure>
-            <img src="images/light-bulbs.jpg" alt="Image bulbs" height="600px" width="1200px">
-        </figure> -->
+        <div class="container">
+            <h1>Hola soy <strong style="color: blue">Julian</strong> <br> Desarrollador de <strong
+                    style="color: blue">software</strong> <br> apasionado por el mundo
+                <strong style="color: blue">TECH</strong>
+            </h1>
+            <figure>
+                <img class="hero-image" src="images/light-bulbs.jpg" alt="Image bulbs" height="250px" width="600px">
+            </figure>
+        </div>
     </section>
     <section id="portafolio" class="portafolio">
-        <h2>Portafolio</h2>
-        <article class="project">
-            <div class="project-details">
-                <h3 class="project-title">Tratamiento YII2</H3>
-                <h6 class="project-tech">PHP/Boopstrap</h6>
+        <div class="container">
+            <h2>Portafolio (proyectos destacados)</h2>
+            <article class="project">
+                <div class="project-details">
+                    <h3 class="project-title">Tratamiento YII2</H3>
+                    <h6 class="project-date">PHP/Boopstrap</h6>
+                    <p><small><strong>Fecha: </strong>06/2017</small></p>
+                    <p class="project-description">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, vitae ea fugit, voluptas ipsum
+                        repellat dolor unde veniam reiciendis dignissimos delectus vel a! Consectetur ea nam non atque
+                        reprehenderit deserunt quibusdam explicabo a quis possimus error sit qui, aspernatur eligendi
+                        veritatis
+                        earum deleniti voluptatem consequuntur? Illum necessitatibus odio enim? Beatae ratione, itaque ea
+                        expedita dolore aut iste ipsam sapiente praesentium eos non, hic at. Blanditiis iusto recusandae
+                        aliquam
+                        quod. Voluptas quos dicta soluta porro velit ab accusantium eos enim, eveniet provident sit vel
+                        ducimus
+                        quasi dolores autem. Laudantium id inventore in veritatis iusto. Aut sit incidunt quasi quis,
+                        aliquam
+                        quidem omnis, eos nihil placeat dolores assumenda. Ex molestias iusto odio consectetur, ea unde illo
+                        labore sit accusantium laudantium eos, non, quae in ullam delectus officia quisquam sint. Error rem
+                        laborum reiciendis odio voluptas, est pariatur fugiat dolor suscipit quis quos quisquam veritatis
+                        beatae
+                        dolores consequatur quo nostrum quam nam! Beatae, assumenda dicta sit et velit dolorum est ipsam
+                        cumque,
+                        aliquam totam recusandae ratione explicabo magnam amet quisquam autem! Repudiandae deserunt
+                        molestiae
+                        quibusdam ex a distinctio reiciendis esse quia maxime rerum velit doloremque, optio natus temporibus
+                        odit iste, delectus expedita id molestias deserunt non esse voluptates laborum unde. Est, aperiam
+                        nobis?
+                    </p>
+                </div>
+                <div>
+                    <figure class="project-image">
+                        <img src="images/laptop.png" alt="Laptop">
+                    </figure>
+                </div>
+            </article>
+            <article class="project">
+               <div class="project-details">
+                <h3 class="project-title">LOOR</h3>
+                <h6 class="project-tech">laravel/Javascript</h6>
                 <p><small><strong>Fecha: </strong>06/2017</small></p>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, vitae ea fugit, voluptas ipsum
-                    repellat dolor unde veniam reiciendis dignissimos delectus vel a! Consectetur ea nam non atque
-                    reprehenderit deserunt quibusdam explicabo a quis possimus error sit qui, aspernatur eligendi
-                    veritatis
-                    earum deleniti voluptatem consequuntur? Illum necessitatibus odio enim? Beatae ratione, itaque ea
-                    expedita dolore aut iste ipsam sapiente praesentium eos non, hic at. Blanditiis iusto recusandae
-                    aliquam
-                    quod. Voluptas quos dicta soluta porro velit ab accusantium eos enim, eveniet provident sit vel
-                    ducimus
-                    quasi dolores autem. Laudantium id inventore in veritatis iusto. Aut sit incidunt quasi quis,
-                    aliquam
-                    quidem omnis, eos nihil placeat dolores assumenda. Ex molestias iusto odio consectetur, ea unde illo
-                    labore sit accusantium laudantium eos, non, quae in ullam delectus officia quisquam sint. Error rem
-                    laborum reiciendis odio voluptas, est pariatur fugiat dolor suscipit quis quos quisquam veritatis
-                    beatae
-                    dolores consequatur quo nostrum quam nam! Beatae, assumenda dicta sit et velit dolorum est ipsam
-                    cumque,
-                    aliquam totam recusandae ratione explicabo magnam amet quisquam autem! Repudiandae deserunt
-                    molestiae
-                    quibusdam ex a distinctio reiciendis esse quia maxime rerum velit doloremque, optio natus temporibus
-                    odit iste, delectus expedita id molestias deserunt non esse voluptates laborum unde. Est, aperiam
-                    nobis?
+                <p class="project-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quia nostrum molestias perferendis rem
+                    illum error quod voluptatem ipsum ea, tempore delectus sapiente laborum ipsam, incidunt, consequatur
+                    eius
+                    repellendus! Commodi.
                 </p>
-            </div>
-            <div>
+               </div>
+               <div>
                 <figure class="project-image">
-                    <img src="images/laptop.png" width="200" height="200" alt="">
+                    <img src="images/imac.png" alt="imagen de pixabay">
                 </figure>
-            </div>
-        </article>
-        <article class="project">
-            <h3 class="project-title">LOOR</h3>
-            <h6 class="project-tech">laravel/Javascript</h6>
-            <p><small><strong>Fecha: </strong>06/2017</small></p>
-            <figure class="project-image">
-                <img src="images/imac.png" width="1024" height="720" alt="imagen de pixabay">
-            </figure>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quia nostrum molestias perferendis rem
-                illum error quod voluptatem ipsum ea, tempore delectus sapiente laborum ipsam, incidunt, consequatur
-                eius
-                repellendus! Commodi.</p>
-        </article>
+               </div>
+            </article>
+        </div>
     </section>
-    <section id="experiencia">
-        <h2>Mi experiencia</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A amet animi fugiat fuga distinctio repudiandae
-            veritatis eveniet dolores vel blanditiis itaque voluptates vitae et quos reprehenderit eos possimus fugit
-            placeat expedita odit pariatur rem, quam quia ducimus? Cum ipsam accusamus voluptatum quod commodi earum
-            quam suscipit, vero fugit numquam vel officia autem quasi laboriosam dolor praesentium dolore blanditiis
-            saepe. Totam officiis expedita perferendis doloremque accusantium praesentium mollitia dicta commodi facilis
-            quod. Dolorum voluptatum recusandae quasi esse. Sed magni a distinctio? Cupiditate officiis quos officia
-            alias omnis. Asperiores quo veniam doloribus ratione sapiente quasi excepturi reprehenderit veritatis
-            necessitatibus, velit neque error sunt itaque aliquid explicabo quisquam animi? Quae amet, nulla libero
-            impedit nihil ullam recusandae iste nam saepe. Assumenda quod reprehenderit veniam veritatis, quo saepe ea
-            mollitia. Sed suscipit nisi nam corrupti, est enim corporis nobis! Obcaecati, perferendis quae. Saepe, vel
-            temporibus! Ex cum magni itaque nesciunt accusamus nulla, deleniti laborum repellendus excepturi libero.
-            Labore nulla quod nobis dicta enim impedit molestiae perspiciatis dolorem commodi eos? Ipsam, consequatur
-            minus? Exercitationem quia debitis ad voluptate consequuntur quisquam, necessitatibus alias! Deleniti, quae
-            voluptas et ipsam possimus consectetur earum rem beatae veniam tempora error quia aspernatur. Voluptatum
-            itaque impedit illo aperiam soluta ab fuga ullam blanditiis officiis eaque expedita illum repellat, error
-            quibusdam, culpa sit quod voluptatem. Modi, voluptatem amet et, alias illo quas placeat aut numquam illum
-            reiciendis laudantium architecto consectetur? Laboriosam voluptatum accusamus eius illum, temporibus
-            necessitatibus nostrum architecto ratione provident quis, impedit quasi atque porro placeat itaque deleniti
-            eaque soluta consequuntur dolorum tenetur! Reiciendis ratione cum adipisci unde, dolorem quisquam dolorum!
-            Dolorem vitae magnam tenetur. Officia repellendus quaerat placeat voluptate sint illo exercitationem eius
-            explicabo animi facere sed totam soluta dolor vitae iusto iste deleniti rem repellat corporis amet adipisci
-            ratione, esse atque. Repellendus quaerat reiciendis id nemo vel autem officiis consequatur doloribus,
-            blanditiis ducimus, qui neque at ut, corrupti dolores modi ullam sapiente expedita dolorum dolorem minus
-            impedit nulla ipsam cum. Explicabo, beatae. Minima adipisci atque ut doloremque voluptatibus vitae,
-            cupiditate vero rem tenetur consequatur reiciendis autem beatae eius odio similique consectetur nobis
-            explicabo ipsam. Quasi consequatur in, totam vero, laudantium, minus amet accusamus eos dolore ad expedita
-            facilis sunt est voluptate natus. Non suscipit laudantium animi nisi, dolores maiores dolore excepturi ea
-            autem tempora natus quasi. Suscipit, quos, minima, tempore rem aspernatur quod magnam saepe quae culpa dolor
-            quia explicabo mollitia. Saepe distinctio illum omnis placeat eos labore quos aut facere expedita laboriosam
-            ut incidunt ipsam explicabo non ipsa cum corporis molestias laborum, temporibus consequatur ab. Hic sit,
-            quisquam porro maxime veniam aliquid exercitationem eos odit beatae molestiae doloribus, accusantium neque
-            ratione rerum est! Consequatur dolores, non soluta, fuga debitis minus ratione fugit aspernatur at earum eos
-            velit. Molestias voluptate, aliquid vel in nobis facere aliquam esse architecto similique quam nam illo qui
-            autem, sapiente hic deleniti tempore recusandae omnis praesentium id sint corrupti deserunt. Blanditiis
-            beatae quasi minus quae molestiae repellat quia quam dolores consequatur labore, eos modi numquam facilis ex
-            rem? Vel magnam totam error esse, inventore, accusantium tempora dicta sint voluptate quasi dolorum
-            molestiae perferendis mollitia reiciendis illo sunt porro maxime, in molestias doloremque odio soluta ex?
-            Quibusdam saepe corporis commodi ex aliquid et ea eligendi id temporibus accusamus explicabo eos dicta
-            blanditiis vel repellat nobis culpa, inventore officiis similique ipsam ducimus quo? Facilis sunt est
-            delectus corporis assumenda illum, optio sit iste, voluptate beatae quia iure, quisquam numquam itaque quod.
-            Distinctio inventore nostrum molestias. Accusantium excepturi dolorem autem delectus sit illum perspiciatis
-            minus deserunt labore at, consequuntur, eos recusandae? Est amet voluptas id, ipsam at, impedit incidunt sit
-            ipsa, distinctio exercitationem veritatis ex culpa porro labore accusantium consequuntur. Obcaecati
-            perspiciatis, expedita quae pariatur aut, inventore, vero quos quisquam ad at ab beatae ex odit eligendi
-            nulla dolores suscipit mollitia rem vel ullam quas? Beatae, et. Natus, perferendis, atque autem laudantium
-            inventore ab ex temporibus vero sint commodi suscipit dolores. Ad explicabo eos nesciunt quam odit earum
-            ipsa iste. Natus a mollitia numquam. Voluptatem in nostrum suscipit temporibus odio, rerum qui. Nostrum est
-            sequi, optio aut quaerat consectetur! Odio facere laborum, at aspernatur vel a repudiandae exercitationem
-            doloremque ratione porro labore voluptate cupiditate asperiores, nihil voluptates cum impedit molestias
-            possimus voluptas consequatur consectetur distinctio temporibus quod reprehenderit. Praesentium quidem,
-            aliquid ipsam quod ipsum nam. Libero soluta repellendus tempora reprehenderit dolores pariatur, consequatur
-            temporibus dolor amet mollitia at sit culpa voluptatum tenetur dolore aliquid accusantium beatae ipsum
-            praesentium fugiat, voluptas nisi eius! Recusandae labore quas unde ut, dolores ab sequi ipsum iusto sint
-            magni explicabo ipsa laborum numquam culpa excepturi repellat accusamus officia voluptates libero ducimus
-            doloremque tenetur mollitia. Illum aperiam commodi optio! Id eius accusamus ab, doloribus sapiente,
-            temporibus labore rem earum ex delectus ratione sed neque iste, iure hic odio assumenda et ad debitis.
-            Exercitationem illum eaque, ut laudantium, error aliquam sed quis tempore maiores voluptates pariatur
-            ducimus dolore corrupti necessitatibus explicabo quos. Perspiciatis repellat ipsa omnis, recusandae ut
-            explicabo possimus temporibus, reiciendis soluta quo exercitationem asperiores adipisci placeat et hic
-        </p>
-        <figure class="imageContent">
-            <img class="image-experience" src="images/code.jpg" width="800" height="480" alt="Image code by pixabay">
-        </figure>
+    <div class="container">
+        <h2 class="event-list-title">Mi experiencia</h2>
+    </div>
+    <section id="eventos" class="event-list">
+        <div class="container">
+            <article class="event">
+                    <figure class="event-imageContainer">
+                            <img class="event-image" src="images/imac.png" alt="imagen de pixabay">
+                    </figure>
+                    <div class="event-details">
+                        <h3 class="event-title">Platzi conf Colombia 2019</h3>
+                        <p class="event-description">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia debitis consequuntur doloremque fugiat! Dicta ullam doloribus excepturi, quis animi tempora laboriosam fuga sit non error explicabo nemo corrupti necessitatibus modi.
+                        </p>
+                        <a class="event-url" href="http://twitter.com">Sigueme en twitter</a>
+                    </div>
+            </article>
+            <article class="event">
+                    <figure class="event-imageContainer">
+                            <img class="event-image" src="images/imac.png" alt="imagen de pixabay">
+                    </figure>
+                    <div class="event-details">
+                        <h3 class="event-title">Platzi conf Colombia 2019</h3>
+                        <p class="event-description">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia debitis consequuntur doloremque fugiat! Dicta ullam doloribus excepturi, quis animi tempora laboriosam fuga sit non error explicabo nemo corrupti necessitatibus modi.
+                        </p>
+                        <a class="event-url" href="http://twitter.com">Sigueme en twitter</a>
+                    </div>
+            </article>
+            <article class="event">
+                    <figure class="event-imageContainer">
+                            <img class="event-image" src="images/imac.png" alt="imagen de pixabay">
+                    </figure>
+                    <div class="event-details">
+                        <h3 class="event-title">Platzi conf Colombia 2019</h3>
+                        <p class="event-description">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia debitis consequuntur doloremque fugiat! Dicta ullam doloribus excepturi, quis animi tempora laboriosam fuga sit non error explicabo nemo corrupti necessitatibus modi.
+                        </p>
+                        <a class="event-url" href="http://twitter.com">Sigueme en twitter</a>
+                    </div>
+            </article>
+            <article class="event">
+                    <figure class="event-imageContainer">
+                            <img class="event-image" src="images/imac.png" alt="imagen de pixabay">
+                    </figure>
+                    <div class="event-details">
+                        <h3 class="event-title">Platzi conf Colombia 2019</h3>
+                        <p class="event-description">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia debitis consequuntur doloremque fugiat! Dicta ullam doloribus excepturi, quis animi tempora laboriosam fuga sit non error explicabo nemo corrupti necessitatibus modi.
+                        </p>
+                        <a class="event-url" href="http://twitter.com">Sigueme en twitter</a>
+                    </div>
+            </article>
+        </div>
     </section>
     <section id="contacto" class="contact">
-        <form action="" method="POST" class="form-control">
-            <label for="correo">Escribeme</label>
-            <input type="text" id="correo" name="correo">
-            <button type="button" id="enviar">Enviar</button>
-        </form>
+        <div class="container">
+            <form action="" method="POST" class="form-email">
+                <h3>¿Creamos algo juntos?</h3>
+                <input type="text" id="correo" name="correo" placeholder="Dejame un mensaje">
+                <button type="button" id="enviar">Enviar</button>
+            </form>
+            <div class="social">
+                <a href="http://twitter.com/julianV8" class="social-link twitter"></a>
+                <a href="http://facebook.com/JulianV8" class="social-link facebook"></a>
+                <a href="http://github.com/julianv8" class="social-link github"></a>
+                <a href="http://instagram.com/julianv8" class="social-link instagram"></a>
+                <a href="http://youtube.com/julianv8" class="social-link youtube"></a>
+            </div>
+        </div>
     </section>
-    <footer class="footer">footer</footer>
+    <footer class="footer">
+        <div class="container">
+            <div>
+                <p>Curso de desarrollo web 2019 <img src="images/logo-julian.png" alt="JulianV8"></p>
+            </div>
+            <div>
+                <p>Hecho con <3 por JulianV8 <a href="www.twitter.com/JulianV8">@JulianV8</a></p>
+            </div>
+        </div>
+    </footer>
 </body>
-
 </html>
