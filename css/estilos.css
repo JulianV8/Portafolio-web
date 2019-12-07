@@ -31,7 +31,7 @@ h1 strong {
 }
 
 h2 {
-    color: #026fff;
+    color: #17253B;
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
@@ -41,8 +41,8 @@ h2 {
 }
 
 .header {
-    background-color: #57575A;
-    color: white;
+    background-color: #fff;
+    color: #17253B;
     display: flex;
     height: 120px;
     align-content: center;
@@ -66,7 +66,7 @@ ul {
 }
 
 .header a {
-    color: white;
+    color: #17253B;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -87,7 +87,8 @@ ul {
 .hero {
     height: 250px;
     /* background-image: url("../images/light-bulbs.jpg"); */
-    background-color: #57575A;
+    /*background-color: #57575A;*/
+    background-image: url("../images/earth.jpg");
     /* background-size: 500px 200px;
     background-repeat: no-repeat;
     background-position-x: right; */
@@ -100,9 +101,18 @@ ul {
     object-fit: cover;
 }
 
-.portafolio {
-    background: #EFEFF4;
+.habilidades {
     padding: 20px;
+    margin: 10px;
+}
+
+.portafolio {
+    background-image: url("../images/earth.jpg");
+    padding: 20px;
+}
+
+.portafolio h2 {
+    color: #fff;
 }
 
 .project {
@@ -134,7 +144,8 @@ ul {
     margin: 10px 20px;
 }
  .project-image img {
-     width: 600px;
+     width: 650px;
+     height: 400px;
  }
 
  .project-description {
